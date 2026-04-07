@@ -19,7 +19,10 @@ This project demonstrates core programming concepts such as:
 - Fully persistent between runs
 
 # 🧱 Project Structure
-coming soon ig
+.
+|---studentGradeManager.cpp
+|---students.txt
+|---README.md
 
 # 🛠️ How to Compile & Run
 Using g++ (Linux / macOS / Windows MinGW)
@@ -27,4 +30,48 @@ ________________________________
 |g++ main.cpp -o grade_manager |
 |./grade_manager               |
 ________________________________
-Using
+
+### Using Visual Studio / CLion / CodeBlocks
+- Create a new C++ project  
+- Add `main.cpp`  
+- Build & run  
+
+---
+
+## 📂 File Format (students.txt)
+
+The program saves data in a simple readable format:
+ <number of students>
+ <name>
+ <id>
+ <grade1>
+ <grade2>
+
+This makes it easy to inspect or modify manually.
+
+---
+
+## 📸 Example Output
+
+Screenshot will be added soon
+
+
+---
+
+## 🧩 Future Improvements (Ideas)
+
+- Sort students by name, ID, or average  
+- Delete students  
+- Edit grades  
+- Export to CSV or JSON  
+- Add authentication  
+- Build a GUI version  
+- Convert to a web API with a database  
+
+---
+
+## 📜 License
+
+This project is open-source.  
+Feel free to use, modify, or build upon it.
+
